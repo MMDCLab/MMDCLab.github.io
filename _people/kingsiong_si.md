@@ -5,4 +5,8 @@ position: gradstudent
 joined: 2023
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<!-- <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom"> -->
+
+### Contact
+
+[King-Siong's blog](http://kingsiong.top)

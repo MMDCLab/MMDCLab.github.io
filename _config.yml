@@ -30,8 +30,10 @@ nav:
     href:           "/publication"
   - name:           "people"
     href:           "/people"
-  - name:           "Courses"
-    href:           "/courses"
+  - name:           "Seminars"
+    href:           "/seminars"
+  # - name:           "Courses"
+    # href:           "/courses"
 
 # Sass
 sass:
