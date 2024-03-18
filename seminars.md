@@ -1,6 +1,6 @@
 ---
 title: Seminars
-permalink: /Seminars/
+permalink: /seminars/
 ---
 
 ### Upcoming seminars
