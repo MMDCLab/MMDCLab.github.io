@@ -7,6 +7,8 @@ permalink: /about/
 
 ### Research
 
+### Hints
+
 ### Lab Members
 
 ### Lab Culture
