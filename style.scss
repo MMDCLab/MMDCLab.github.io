@@ -8,6 +8,17 @@
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "thuan";
+  src: url("{{ site.base }}/documents/fonts/thuan.TTC");
+}
+
+@font-face {
+  font-family: "gutifangsong";
+  src: url("{{ site.base }}/documents/fonts/WenYue_GuTiFangSong_F.otf");
+}
+
+
 html,
 body {
   margin: 0;
