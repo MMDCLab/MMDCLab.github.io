@@ -413,8 +413,8 @@ tbody tr:nth-child(odd) th {
 .profile-thumbnail {
   object-fit: cover;
   object-position: center top;
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 180px;
 }
 
 .highlight .hll { background-color: #ffffcc }
@@ -485,12 +485,14 @@ tbody tr:nth-child(odd) th {
 }
 
 .people {
-  margin: auto;
-  text-align: center;
-  margin-top: 0.75em;
+  // margin: auto;
+  text-align: left;
+  margin-top: 1.25em;
+  margin-left: 2.5em;
 }
 
 .list-item-people {
+  // float: left;
   display: inline-block;
   padding-right: 1em;
 }
@@ -498,10 +500,33 @@ tbody tr:nth-child(odd) th {
 .list-post-title img {
   margin-bottom: 0.75em;
   margin-top: 1.25em;
+  float: left;
+}
+
+// .list-post-title 
+
+.info-block {
+  position: relative;
+  margin-top: 1.25em;
+  margin-left: 150px;
+  width: 400px;
+  height: 120px;
+  // background: #ddd;
+  position: relative;
+}
+
+.info {
+  width: 100%;
+  height: 70%;
+  // background: orange;
+  position: absolute;
+  top: 30%;
+  // margin: -15% 0 0 0;
 }
 
 .list-post-title .name {
-  font-size: 18px;
+  color: #0086B3;
+  // font-size: 18px;
 }
 
 .list-post-title {
