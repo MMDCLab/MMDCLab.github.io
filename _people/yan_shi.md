@@ -6,6 +6,7 @@ degree: Master
 page: true
 field: 
 email: 
+where: Huawei 2012 Lab
 time: (2020 - 2023)
 joined: 2020.09
 ---

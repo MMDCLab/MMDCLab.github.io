@@ -96,6 +96,9 @@ permalink: /people/
         </b>
       {% endif %}
       , {{ profile.degree }}, {{ profile.time }}
+      {% if profile.where %}
+        , {{ profile.where }}
+      {% endif %}
       <br>
     {% endif %}
   {% endfor %}

@@ -6,6 +6,7 @@ degree: Master
 page: true
 field: 
 email: 
+where: Alibaba, Beijing
 time: (2020 - 2023)
 joined: 2020.09
 ---
