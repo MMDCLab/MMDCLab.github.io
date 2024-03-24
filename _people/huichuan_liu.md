@@ -1,5 +1,5 @@
 ---
-name: Huicuan Liu
+name: Huichuan Liu
 name-cn: 刘汇川
 position: alumni
 degree: Master

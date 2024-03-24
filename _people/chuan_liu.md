@@ -1,5 +1,5 @@
 ---
-name: Cuan Liu
+name: Chuan Liu
 name-cn: 刘川
 position: ms
 degree: Master's student
