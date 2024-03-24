@@ -4,7 +4,7 @@ permalink: /people/
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "faculty|pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
+{% assign role_array = "faculty|phd|ms|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -20,10 +20,10 @@ permalink: /people/
 <h3>Faculty</h3>
 {% elsif role == 'alumni' %}
 <h3>Alumni</h3>
-{% else %}
+{% elsif role == 'phd' %}
 <h3>Students</h3>
 {% endif %}
-{% if role == 'postdoc' %}
+<!-- {% if role == 'postdoc' %}
 <h4>Postdoctoral Fellows</h4>
  {% elsif role == 'pi' %}
 <h4>Principal Investigator</h4>
@@ -35,7 +35,7 @@ permalink: /people/
 <h4>Visiting Scholars</h4>
  {% elsif role == 'others' %}
 <h4>Honorary Members</h4>
-{% endif %}
+{% endif %} -->
 </div>
 
 {% if role == 'faculty' %}
@@ -72,14 +72,38 @@ permalink: /people/
         </div>
       </div>    
     {% endif %}
-    <br>
+    <!-- <br> -->
   {% endfor %}
 </div>
 <hr>
 
-{% else %}
+{% elsif role == 'phd' or role == 'ms' or role == 'alumni' %}
 
-<br>
+<div class='people'>
+  {% for profile in people_sorted %}
+    {% if profile.position contains role %}
+      {% if profile.blog %}
+        <b>
+          <a href="{{ profile.blog }}">{{ profile.name }}</a> ({{ profile.name-cn }})
+        </b>
+      {% elsif profile.page %}
+        <b>
+          <a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a> ({{ profile.name-cn }})
+        </b>
+      {% else %}
+        <b>
+          {{ profile.name }}
+        </b>
+      {% endif %}
+      , {{ profile.degree }}, {{ profile.time }}
+      <br>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<hr>
 
 {% endif %}
 {% endfor %}
+
+Information about alumni who graduated before 2023 has not yet been published here, please wait.
