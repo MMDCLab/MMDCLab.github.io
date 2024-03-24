@@ -10,6 +10,11 @@
 
 @font-face {
   font-family: "thuan";
+  src: url("{{ site.base }}/documents/fonts/thuan.ttf");
+}
+
+@font-face {
+  font-family: "thuan2";
   src: url("{{ site.base }}/documents/fonts/thuan.TTC");
 }
 
