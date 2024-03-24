@@ -486,14 +486,14 @@ tbody tr:nth-child(odd) th {
 
 // customization
 .pos_header {
-  margin-left: 2rem;
+  // margin-left: 2rem;
 }
 
 .people {
   // margin: auto;
   text-align: left;
   margin-top: 1.25em;
-  margin-left: 2.5em;
+  // margin-left: 1.25em;
   position: relative;
 }
 
@@ -512,17 +512,17 @@ tbody tr:nth-child(odd) th {
 // .list-post-title 
 
 .info-block {
-  margin-top: 2.5em;
+  margin-top: 1.25em;
   margin-left: 150px;
   width: 50%;
-  // background: #ddd;
+  background: #ddd;
   position: absolute;
 }
 
 .info {
   width: 100%;
-  height: 100%;
-  // background: orange;
+  height: 80%;
+  background: orange;
   position: absolute;
   // top: 30%;
   // margin: -15% 0 0 0;
