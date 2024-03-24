@@ -104,7 +104,9 @@ permalink: /people/
   {% endfor %}
 </div>
 
+{% if role != 'phd' %}
 <hr>
+{% endif %}
 
 {% endif %}
 {% endfor %}
