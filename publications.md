@@ -25,7 +25,7 @@ Neural Networks, 2024, 171: 104-113 `CCF B`
 
 _Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer_<br>
 Zhihao Zhang, Yiwei Chen, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, and Wangdu Chen<br> 
-Proceedings of the 31st ACM International Conference on Multimedia (ACM Mulitmedia), 2023, pp. 3560–3568 `CCF A` ([Article](https://arxiv.org/pdf/2309.14704.pdf))
+Proceedings of the 31st ACM International Conference on Multimedia (ACM Multimedia), 2023, pp. 3560–3568 `CCF A` ([Article](https://arxiv.org/pdf/2309.14704.pdf))
 
 _Predict-and-Drive: Avatar Motion Adaption in Room-Scale Augmented Reality Telepresence with Heterogeneous Spaces_<br>
 Xuanyu Wang, Hui Ye, Christian Sandor, Weizhan Zhang, and Hongbo Fu<br>
@@ -45,11 +45,11 @@ IEEE Transactions on Multimedia, 2022, 23, pp. 1530-1541 `CCF B`
 
 _AvatarMeeting: An Augmented Reality Remote Interaction System With Personalized Avatars_<br>
 Xuanyu Wang, Yang Wang\*, Yan Shi, Weizhan Zhang, and Qinghua Zheng<br>
-Proceedings of the 28th ACM International Conference on Multimedia (ACM Mulitmedia), 2020, pp. 4533-4535 `CCF A` ([Article](https://xr-lab.org/publication/wang-acm-2020/wang-acm-2020.pdf))
+Proceedings of the 28th ACM International Conference on Multimedia (ACM Multimedia), 2020, pp. 4533-4535 `CCF A` ([Article](https://xr-lab.org/publication/wang-acm-2020/wang-acm-2020.pdf))
  
 _EmotionTracker: A Mobile Real-time Facial Expression Tracking System with the Assistant of Public AI-as-a-Service_<br>
 Xuncheng Liu, Jingyi Wang, Weizhan Zhang\*, Qinghu Zheng, and Xuanya Li<br>
-Proceedings of the 28th ACM International Conference on Multimedia (ACM Mulitmedia), 2020, pp. 4530-4532 `CCF A` ([Article](https://dl.acm.org/doi/10.1145/3394171.3414447))
+Proceedings of the 28th ACM International Conference on Multimedia (ACM Multimedia), 2020, pp. 4530-4532 `CCF A` ([Article](https://dl.acm.org/doi/10.1145/3394171.3414447))
 
 _Deploying Fused Sharable Video Interaction Channels in Mobile Cloud_<br>
 Xuanyu Wang, Haipeng Du, Weizhan Zhang, and Qinghua Zheng<br>
