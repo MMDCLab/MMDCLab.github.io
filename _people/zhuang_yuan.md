@@ -3,7 +3,7 @@ name: Zhuang Yuan
 name-cn: 袁壮
 position: phd
 degree: PhD candidate
-page: 
+page: true
 field: 
 email: 
 time: (2022 - )
