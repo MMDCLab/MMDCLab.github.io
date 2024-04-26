@@ -4,6 +4,7 @@ permalink: /people/
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' %}
+{% assign people_sorted_reverse = site.people | sort: 'joined' | reverse %}
 {% assign role_array = "faculty|phd|ms|alumni" | split: "|" %}
 
 {% for role in role_array %}
@@ -75,9 +76,8 @@ permalink: /people/
     <!-- <br> -->
   {% endfor %}
 </div>
-<hr>
 
-{% elsif role == 'phd' or role == 'ms' or role == 'alumni' %}
+{% elsif role == 'phd' or role == 'ms' %}
 
 <div class='people'>
   {% for profile in people_sorted %}
@@ -104,11 +104,39 @@ permalink: /people/
   {% endfor %}
 </div>
 
+{% elsif role == 'alumni' %}
+
+<div class='people'>
+  {% for profile in people_sorted_reverse %}
+    {% if profile.position contains role %}
+      {% if profile.blog %}
+        <b>
+          <a href="{{ profile.blog }}">{{ profile.name }}</a> ({{ profile.name-cn }})
+        </b>
+      {% elsif profile.page %}
+        <b>
+          <a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a> ({{ profile.name-cn }})
+        </b>
+      {% else %}
+        <b>
+          {{ profile.name }}
+        </b>
+      {% endif %}
+      , {{ profile.degree }}, {{ profile.time }}
+      {% if profile.where %}
+        , {{ profile.where }}
+      {% endif %}
+      <br>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% endif %}
+
 {% if role != 'phd' %}
 <hr>
 {% endif %}
 
-{% endif %}
 {% endfor %}
 
 Information about alumni who graduated before 2023 has not yet been published here, please wait.
