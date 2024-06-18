@@ -15,6 +15,7 @@ permalink: /seminars/
 
 |Date|Time|Place|Speaker(s)|Topic(s)|Material(s)|
 |----|----|-----|----------|:-------|:----------|
+|06/14/2024|9:15 a.m.|Hongli Building|徐亮|AI 网关调度|[slide]({{ site.baseurl }}/documents/seminars/spring2024/061424多媒体组会徐亮.pptx)|
 |05/08/2024|8:00 p.m.|Tencent Meeting|施劲松|Quantization|[slide]({{ site.baseurl }}/documents/seminars/spring2024/050824quant.pdf)|
 |03/27/2024|8:00 p.m.|Tencent Meeting|张凯喆、曹坚翔|CVPR 2024 Gaussian相关论文分类简介|[slide]({{ site.baseurl }}/documents/seminars/spring2024/032724Gaussian组论文分享.pptx)|
 |03/22/2024|2:00 p.m.|China Telecom|施劲松|OneBit: Towards Extremely Low-bit Large Language Models (paper sharing)|[slide]({{ site.baseurl }}/documents/seminars/spring2024/032224onebit.pdf)|
