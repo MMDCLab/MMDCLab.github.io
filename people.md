@@ -139,4 +139,4 @@ permalink: /people/
 
 {% endfor %}
 
-Information about alumni who graduated before 2023 has not yet been published here, please wait.
+Information about alumni who graduated before 2022 has not yet been published here, please wait.
