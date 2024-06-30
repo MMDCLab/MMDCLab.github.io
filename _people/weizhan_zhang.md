@@ -9,3 +9,4 @@ page: https://gr.xjtu.edu.cn/en/web/zhangwzh123/1
 field: Multimedia networking and distributed system, edge/mobile intelligence, AR/VR/MR, Computer vision and AIGC
 email: zhangwzh@xjtu.edu.cn
 joined: 2010
+---
