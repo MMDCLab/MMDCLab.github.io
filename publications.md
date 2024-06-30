@@ -5,9 +5,13 @@ permalink: /publication/
 
 ### 2024
 
+_Context-Aware Cross-Layer Congestion Control for Large-Scale Live Streaming_<br>
+Danfu Yuan, Weizhan Zhang\*, Yubing Qiu, Haiyu Huang, Mingliang Yang, Peng Chen, Kai Xiao, Hongfei Yan, Yaming He, and Yiping Zhang<br>
+IEEE/ACM Transactions on Networking (TON), 2024 `CCF A` ([Article](https://www.computer.org/csdl/journal/nt/5555/01/10530225/1WWdRJwv0bK))
+
 _A3RT: Attention-Aware AR Teleconferencing with Life-Size 2.5D Video Avatars_<br>
 Xuanyu Wang, Weizhan Zhang\*, and Hongbo Fu\*<br> 
-IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2024. `CCF A` to appear
+IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2024 `CCF A` ([Article](https://www.computer.org/csdl/proceedings-article/vr/2024/740200a211/1Wab6AP8cus))
  
 _FHVAC: Feature-level Hybrid Video Adaptive Configuration for Machine-centric Live Streaming_<br>
 Yuanhong Zhang, Weizhan Zhang\*, Haipeng Du, Caixia Yan, and Qinghua Zheng<br>
@@ -15,7 +19,15 @@ IEEE Transactions on Parallel and Distributed Systems (TPDS), 2024 `CCF A` ([Art
  
 _SAUI: Scale-Aware Unseen Imagineer for Zero-Shot Object Detection_<br>
 Jiahao Wang, Caixia Yan\*, Weizhan Zhang\*, Huan Liu, Hao Sun, and Qinghua Zheng<br>
-The AAAI Conference on Artificial Intelligence (AAAI), 2024 `CCF A` to appear
+The AAAI Conference on Artificial Intelligence (AAAI), 2024 `CCF A` ([Article](https://ojs.aaai.org/index.php/AAAI/article/view/28353))
+
+_Data Quality-aware Mixed-precision Quantization via Hybrid Reinforcement Learning_<br>
+Yingchun Wang, Song Guo, Jingcai Guo, Weizhan Zhang\*, Jie Zhang, Qinghua Zheng, and Yuanhong Zhang<br>
+IEEE Transactions on Neural Networks and Learning Systems, 2024 `CCF B` to appear
+
+_Adaptive Token Selection for Efficient Detection Transformer with Dual Teacher Supervision_<br>
+Muyao Yuan, Weizhan Zhang\*, Caixia Yan\*, Tieliang Gong, Yuanhong Zhang, and Jiangyong Ying<br>
+Knowledge-Based Systems, 2024
 
 _Towards performance-maximizing neural network pruning via global channel attention_<br>
 Yingchun Wang, Song Guo, Jingcai Guo, Jie Zhang, Weizhan Zhang\*, Caixia Yan, and Yuanhong Zhang<br>
