@@ -65,13 +65,14 @@ permalink: /people/
                 <i>{{ profile.field }}</i>
               </li>
               <li>
-                <b>Email: </b><a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+                <b>Email: </b><code>{{ profile.email }}</code>
               </li>
             </ul>
           </div>
           </div>
         </div>
-      </div>    
+      </div>   
+      <br> 
     {% endif %}
     <!-- <br> -->
   {% endfor %}
