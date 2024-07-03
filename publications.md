@@ -1,6 +1,7 @@
 ---
-title: Publication
-permalink: /publication/
+layout: default
+title: Publications
+permalink: /publications/
 ---
 
 ### 2024

@@ -1,7 +1,10 @@
 ---
+layout: default
 title: People
 permalink: /people/
 ---
+
+<div>
 
 {% assign people_sorted = site.people | sort: 'joined' %}
 {% assign people_sorted_reverse = site.people | sort: 'joined' | reverse %}
@@ -16,7 +19,6 @@ permalink: /people/
   {% continue %}
 {% endif %}
 
-<div class="pos_header">
 {% if role == 'faculty' %}
 <h3>Faculty</h3>
 {% elsif role == 'alumni' %}
@@ -37,21 +39,18 @@ permalink: /people/
  {% elsif role == 'others' %}
 <h4>Honorary Members</h4>
 {% endif %} -->
-</div>
 
-{% if role == 'faculty' %}
 <div class="people">
+{% if role == 'faculty' %}
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
-      <div class="list-item-people">
-        <div class="list-post-title">
+        <div class="list-item-people">
           {% if profile.avatar %}
             <a href="{{ profile.page }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
           {% else %}
             <a href="{{ profile.page }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/anonymous.jpg"></a>
           {% endif %}
           <div class="info-block">
-          <div class="info">
             <ul>
               <li>
                 <b>
@@ -69,9 +68,7 @@ permalink: /people/
               </li>
             </ul>
           </div>
-          </div>
         </div>
-      </div>   
       <br> 
     {% endif %}
     <!-- <br> -->
@@ -80,7 +77,7 @@ permalink: /people/
 
 {% elsif role == 'phd' or role == 'ms' %}
 
-<div class='people'>
+<div class="people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
       {% if profile.blog %}
@@ -107,7 +104,7 @@ permalink: /people/
 
 {% elsif role == 'alumni' %}
 
-<div class='people'>
+<div class="people">
   {% for profile in people_sorted_reverse %}
     {% if profile.position contains role %}
       {% if profile.blog %}
@@ -141,3 +138,5 @@ permalink: /people/
 {% endfor %}
 
 Information about alumni who graduated before 2022 has not yet been published here, please wait.
+
+</div>

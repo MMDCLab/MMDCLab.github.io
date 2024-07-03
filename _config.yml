@@ -1,65 +1,30 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
-
-# Basic
 name:               "Multi-Media Lab"
-title:              "Multi-Media Lab at Xi'an JiaoTong University"
+title:              "Multi-Media Lab"
 description:        "Multi-Media Lab"
 
-
-# URL
 url:                https://mmdclab.github.io
-baseurl:            
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+baseurl:      
 
-# Markdown
-markdown:           kramdown
+markdown: kramdown
 
-# Highlighter
-highlighter:        rouge
+tracking_id: #
 
-# Navigation
-nav:
-  - name:           "home"
-    href:           "/"
-  # - name:           "about"
-    # href:           "/about"
-  - name:           "publications"
-    href:           "/publication"
-  - name:           "people"
-    href:           "/people"
-  - name:           "Seminars"
-    href:           "/seminars"
-  # - name:           "Courses"
-    # href:           "/courses"
+footer: yes
+footer_text: "School of Computer Science and Technology at Xi'an JiaoTong University<br>No.28, West Xianning Road, Xi'an, Shaanxi, 710049"
 
-# Sass
 sass:
-  style:            :compressed
+    style: compressed
+    sass_dir: _sass
 
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-  -
-    scope:
-      path:         ""
-      type:         "people"
-    values:
-      layout:       "profile"
-
+nav:
+ - name: "Home"
+   link: "/"
+ - name: "Publications"
+   link: "/publications/"
+ - name: "People"
+   link: "/people/"
+ - name: "Seminars"
+   link: "/seminars/"
 
 collections:
   people:
